@@ -15,10 +15,10 @@ require 'pry'
   # }
 
 def remove_strawberry(contacts)
-        contacts.each { |father mother|
-              mother.each {  |attri data|
+        contacts.each { |person, contact_details_hash|
+              contact_details_hash.each {  |attri, data|
                        if atrri == "favorite_ice_cream_flavors"
-                             data.delete_if {|value| valuee == "strawberry"} 
+                             data.delete_if {|value| valuee == "strawberry"}
                           }
                       end
               }
